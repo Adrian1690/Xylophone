@@ -18,8 +18,6 @@ class ViewController: UIViewController{
         super.viewDidLoad()
     }
 
-
-
     @IBAction func notePressed(_ sender: UIButton) {
         
         playSound(soundFileName : soundArray[sender.tag - 1])
